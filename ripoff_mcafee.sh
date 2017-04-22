@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
-
-
-## HEADER
-
-
-## DEFINITIONS
-
+#kommentar
 
 ## FUNCTIONS
 
@@ -153,13 +147,13 @@ removeMcAfee(){
 		/usr/sbin/pkgutil --forget comp.nai.cmamac > /dev/null 2>&1
 	fi
 
-	dscl . -delete /Users/mfe
+#	dscl . -delete /Users/mfe
 
-	dscl . -delete /Groups/mfe
+#	dscl . -delete /Groups/mfe
 
-	dscl . -delete /Groups/Virex
+#	dscl . -delete /Groups/Virex
 
-	killall -c Menulet
+#	killall -c Menulet
 
 }
 
