@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-#kommentar
+## Script um McAffe komplett zu entfernen.
+## 18.04.2017 / STA
+## Original Script von https://community.mcafee.com/thread/94272?start=0&tstart=0 (RipOff_McAfee.sh)
 
 ## FUNCTIONS
 
