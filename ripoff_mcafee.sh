@@ -160,12 +160,10 @@ removeMcAfee(){
 }
 
 
-## BODY
 
 removeMcAfee
 
 #jamf policy -event <Your event name to install new goes here>
 
 
-## FOOTER
 exit 0
