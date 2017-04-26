@@ -32,8 +32,8 @@ cd /Library/Frameworks/
 chown root:wheel AVEngine.framework
 chmod 755 AVEngine.framework
 
-#add new version to the plist file (noch abklären ob das die richtige Version ist, habe ich im Netz nirgends gefunden, alte Version war 5800.7501)
-sudo defaults write /Library/Preferences/com.mcafee.ssm.antimalware.plist Update_EngineVersion -string 5900
+#add new version to the plist file
+sudo defaults write /Library/Preferences/com.mcafee.ssm.antimalware.plist Update_EngineVersion -string 5900.7806
 
 #reload AVEngine
 sudo launchctl load  /Library/LaunchDaemons/com.mcafee.ssm.ScanManager.plist
