@@ -45,16 +45,15 @@ chmod 755 AVEngine.framework
 echo "$runtime" >> /tmp/replace_engine.log
 echo "copy new AVEngine Framework OK" >> /tmp/replace_engine.log
 
-<<<<<<< HEAD
+
 sleep 10
 #add new version to the plist file (noch abklären ob das die richtige Version ist, habe ich im Netz nirgends gefunden, alte Version war 5800.7501)
 sudo defaults write /Library/Preferences/com.mcafee.ssm.antimalware.plist Update_EngineVersion -string 5900.7806
 echo "$runtime" >> /tmp/replace_engine.log
 echo "add new Version to plist OK" >> /tmp/replace_engine.log
-=======
+
 #add new version to the plist file
 sudo defaults write /Library/Preferences/com.mcafee.ssm.antimalware.plist Update_EngineVersion -string 5900.7806
->>>>>>> origin/master
 
 sleep 10
 #reload AVEngine
